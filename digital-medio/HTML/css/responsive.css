@@ -1,0 +1,183 @@
+@media only screen and (max-width: 1024px) {
+    .banner_text{
+        width: 63%;
+    }
+    .banner_pic {
+        width: 37%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .banner_text{
+        width: 60%;
+    }
+    .banner_pic {
+        width: 40%;
+    }
+    .banner_content {
+        margin-top: -480px;
+    }
+    .banner_text i {
+        font-size: 100px;
+        color: #ececec;
+        margin-bottom: 30px;
+        font-weight: 200;
+    }
+
+    .banner_text h1 {
+        font-size: 40px;
+        font-weight: 800;
+        color: var(--blue);
+    }
+    .banner_pic img {
+        height: 400px;
+    }
+
+    .newsPartImgg img {
+        height: 200px;
+        object-fit: cover;
+        width: 100%;
+    }
+    .gallery-part img {
+        height: 235px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .gallery-part img {
+        width: 50%;
+    }
+    .gallery-part img {
+        height: 300px;
+        object-fit: cover;
+    }
+    .banner_content {
+        margin-top: -350px;
+    }
+    .banner_text i {
+        font-size: 65px;
+        color: #ececec;
+        margin-bottom: 30px;
+        font-weight: 200;
+    }
+
+    .banner_text h1 {
+        font-size: 25px;
+        font-weight: 800;
+        color: var(--blue);
+    }
+    .banner_pic img {
+        height: 280px;
+    }
+
+    .shape {
+        height: 500px;
+    }
+    .banner {
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .speak-carousel .owl-item img {
+        width: 71%;
+    }
+    .speakCarPic {
+        height: 165px;
+    }
+
+    .recommendationPart p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .history-carousel .owl-nav , .owl-carouselOne .owl-nav {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+     .banner_text{
+        width: 100%;
+        text-align: center
+    }
+    .banner_pic {
+        width: 70%;
+        margin-top: 25px;
+    }
+    .banner_content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner_text i {
+        margin-bottom: 18px;
+    }
+
+    .header {
+       background-color: #f6f6f6;
+       box-shadow: 0px 2px 11px 1px #00000061;
+       padding: 0;
+    }
+
+    .banner_content {
+        margin-top: -460px;
+    }
+    .shape {
+        height: 570px;
+        width: 95%;
+    }
+    .banner {
+        height: 570px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .gallery-part img {
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .navbar-brand img {
+        width: 200px;
+    }
+
+    .speakCarPic {
+        height: 125px;
+    }
+    .visionary .left-part p {
+        font-size: 12px;
+        margin: 30px 0;
+        line-height: 18px;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+    h2 {
+        font-size: 25px !important;
+    }
+    .banner_pic {
+        width: 85%;
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .recommendationPart p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .speak-carousel .owl-item img {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 320px)  {
+    .gallery-part img {
+        width: 100%;
+    }
+    .speak-carousel .owl-item img {
+        width: 100%;
+    }
+}
